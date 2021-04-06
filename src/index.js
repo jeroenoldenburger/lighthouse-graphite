@@ -32,7 +32,7 @@ const options = {
 const config = {
     extends: 'lighthouse:default',
     settings: {
-        throttlingMethod: "devtools",
+        throttlingMethod: "provided",
         onlyAudits: [
             "largest-contentful-paint",
             "total-blocking-time",
